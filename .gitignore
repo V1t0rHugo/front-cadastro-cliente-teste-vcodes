@@ -3,6 +3,9 @@
 .env
 package-lock.json
 npm-debug.log
+debug.log
+yarn-error.log
+Procfile
 build.zip
 Procfile
 # Local Netlify folder
