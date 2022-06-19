@@ -1,0 +1,60 @@
+{
+    "name": "VCodes",
+    "version": "1.0.0",
+    "description": "Painel para cadastro de clientes - Projeto teste VCodes",
+    "main": "index.js",
+    "author": "Vitor Hugo Mendes Cavalcante",
+    "license": "MIT",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+        "compile-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css",
+        "minify-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.min.css --output-style compressed",
+        "map-sass": "node-sass src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css --source-map true"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "dependencies": {
+        "@trendmicro/react-sidenav": "^0.5.0",
+        "add": "^2.0.6",
+        "axios": "^0.19.0",
+        "classnames": "2.2.6",
+        "env-cmd": "^10.1.0",
+        "font-awesome": "^4.7.0",
+        "lodash": "^4.17.21",
+        "moment": "2.24.0",
+        "react": "16.8.4",
+        "react-alert": "^7.0.3",
+        "react-alert-template-basic": "^1.0.2",
+        "react-awesome-spinners": "^1.3.1",
+        "react-confirm-alert": "^3.0.2",
+        "react-dom": "16.8.4",
+        "react-redux": "^7.1.3",
+        "react-router-dom": "^5.1.2",
+        "react-scripts": "^3.4.1",
+        "react-switch-input": "^1.1.0",
+        "react-toastify": "^9.0.4",
+        "reactjs-text-to-image": "^0.0.1",
+        "reactstrap": "7.1.0",
+        "redux": "^4.0.4",
+        "sass": "^1.52.3",
+        "styled-components": "^4.4.1",
+        "yarn": "^1.22.4"
+    },
+    "devDependencies": {
+        "@types/googlemaps": "3.30.18",
+        "@types/markerclustererplus": "2.1.33",
+        "@types/react": "16.8.7",
+        "typescript": "3.3.3333"
+    }
+}

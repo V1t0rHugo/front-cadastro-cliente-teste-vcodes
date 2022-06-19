@@ -1,0 +1,9 @@
+/build
+/node_modules
+.env
+package-lock.json
+npm-debug.log
+build.zip
+Procfile
+# Local Netlify folder
+.netlify
